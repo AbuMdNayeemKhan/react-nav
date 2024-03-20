@@ -11,7 +11,7 @@ const PriceOption = ({option}) => {
             <h3 className='text-2xl'>{name}</h3>
             <ul>
                 {
-                    features.map =(feature, index) => <Feature key={index} feature={feature}></Feature>
+                    features.map((feature, index) => <Feature key={index} feature={feature}></Feature>)
                 }
             </ul>
         </div>
