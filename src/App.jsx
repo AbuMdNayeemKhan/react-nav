@@ -6,8 +6,8 @@ import NavBar from './Components/NavBar/NavBar'
 function App() {
   return (
     <>
-      {/* <DaisyNav></DaisyNav> */}
       <NavBar></NavBar>
+      {/* <DaisyNav></DaisyNav> */}
       <h1 className='text-7xl bg-red-200'>Vite + React</h1>
 
     </>
