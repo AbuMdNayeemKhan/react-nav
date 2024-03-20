@@ -5,7 +5,7 @@ const PriceOptions = () => {
         {
           "id": 1,
           "name": "Basic Membership",
-          "price": "$29.99/month",
+          "price": "$29.99",
           "features": [
             "Access to cardio equipment",
             "Access to weightlifting area",
@@ -19,7 +19,7 @@ const PriceOptions = () => {
         {
           "id": 2,
           "name": "Standard Membership",
-          "price": "$49.99/month",
+          "price": "$49.99",
           "features": [
             "Full access to all equipment and facilities",
             "Unlimited group fitness classes",
@@ -33,7 +33,7 @@ const PriceOptions = () => {
         {
           "id": 3,
           "name": "Premium Membership",
-          "price": "$79.99/month",
+          "price": "$79.99",
           "features": [
             "All features of Standard Membership",
             "Access to exclusive premium equipment",
@@ -48,9 +48,11 @@ const PriceOptions = () => {
     return (
         <div>
             <h2 className="text-2xl">Best Prices in the town</h2>
-            {
+            <div className="grid grid-cols-3">
+                {
                 priceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
-            }
+                }
+            </div>
         </div>
     );
 };
