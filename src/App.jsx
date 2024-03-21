@@ -3,6 +3,7 @@ import './App.css'
 // import DaisyNav from './Components/DaisyNav/DaisyNav'
 import NavBar from './Components/NavBar/NavBar'
 import PriceOptions from './Components/PriceOptions/PriceOptions'
+import Linechart from './Components/Linechart/Linechart'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* <DaisyNav></DaisyNav> */}
       <h1 className='text-7xl bg-red-200'>Vite + React</h1>
       <PriceOptions></PriceOptions>
+      <Linechart></Linechart>
     </>
   )
 }
